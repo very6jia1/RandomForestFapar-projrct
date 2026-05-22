@@ -80,7 +80,7 @@ python estimation.py
 1. **Data Splitting** - Loads the training dataset, applies min-max normalization, splits into train/validation/test sets (70/15/15), and saves to `output_splits/`.
 2. **RF Training** - Trains a Random Forest regressor, computes feature importance, saves the model and validation metrics.
 3. **RF Testing** - Evaluates the trained model on the test set, generates scatter plot and error metrics.
-4. **RF Prediction** - Loads the prediction dataset, applies normalization using training min/max values, runs inference, and saves results.
+4. **RF Prediction** - Loads the prediction dataset, applies normalization using training min/max values, runs inference, and saves results。
 
 ## Outputs
 

@@ -25,7 +25,7 @@ Option 1: Conda (recommended)
 ```bash
 conda env create -f environment.yml
 conda activate forestfapar
-pip install .
+pip install ..
 ```
 
 Option 2: pip
